@@ -10,7 +10,7 @@ const isPalindrome = (text) => {
 const evaluateText = (text) => {
   let counter = 0;
   for (let i = 0; i < textToEvaluate.length; i++) {
-    for (let j = i + 1; j < textToEvaluate.length; j++) {
+    for (let j = i + 1; j <= textToEvaluate.length; j++) {
       let subText = textToEvaluate.substring(i, j);
       if (isPalindrome(subText) && subText.length > 2) {
         counter += 1;
