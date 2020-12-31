@@ -4,7 +4,7 @@
 
 ### Clone Repository
 
-`git clone https://github.com/DixonOrtiz/companies-api`
+`git clone https://github.com/DixonOrtiz/palindrome-script`
 
 ### Run with node
 
